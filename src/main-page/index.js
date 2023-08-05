@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import Header from "./header";
 import "./main-page.css";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import FeaturedHouse from "./featured-house";
 import SearchResults from "../search-results";
 import HouseFilter from "./house-filter";
